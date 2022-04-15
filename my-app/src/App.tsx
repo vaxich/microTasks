@@ -6,6 +6,7 @@ import { Buttons } from './03/03';
 import { State } from './04/04';
 import { MetodFilter } from './05/05';
 import { SuperInput } from './06/06';
+import { Todolist_Main } from './07/07';
 
 const students = [
   {id: 1, name: "James", age: 8},
@@ -45,6 +46,7 @@ function App() {
     <State />
     <MetodFilter />
     <SuperInput />
+    <Todolist_Main />
     </div>
   );
 }
